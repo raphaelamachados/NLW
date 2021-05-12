@@ -1,0 +1,25 @@
+{
+  "name": "nlw_2020_discovery",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido na trilha Discovery do terceiro NextLevelWeek da Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machadinhacega/nlw_2020_discovery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/machadinhacega/nlw_2020_discovery/issues"
+  },
+  "homepage": "https://github.com/machadinhacega/nlw_2020_discovery#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "nodemon": "^2.0.5"
+  }
+}

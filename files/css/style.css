@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box; 
+  /* Calculo pela borda: por padrao ele pega o conteudo e soma os paddings para dar o tamanho da caixa . Agora ele vai de uma ponta a outra e vai diminuindo os elementos dentro da caixa */
+}
+
+body {
+  height: 100vh;
+  color: #ffffff;
+  background:#EBF2F5;
+
+  font-size: 1em;
+  /* "em" busca do elemento pai dele
+       "rem" busca do elemento raiz "root" */
+}
+
+:root {
+  font-size: 62.5%;
+  /* font-size: 100% é 16px. 62.5% é 10px. é o padrao do navegador. */
+}
+
+body,
+input,
+button,
+textarea {
+  /* font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font: 400 18px/1 'Nunito', sans-serif; */
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
